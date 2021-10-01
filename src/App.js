@@ -1,11 +1,16 @@
 import "./App.css";
-import Buttons from "./Components/Buttons";
+import Header from "./Components/Header";
+import Pages from "./Components/Pages";
+import Person from "./Components/Person";
 
 function App() {
   return (
     <div className="App">
-      <h1>Jonah is so hot</h1>
-      <Buttons />
+      <Header />
+      <div className="person-container">
+        <Person />
+      </div>
+      <Pages />
     </div>
   );
 }
